@@ -5,7 +5,7 @@ The code is very repetitive, for educational and learning perspective.
 
 All experiments are made with MNIST data
 I have not added the evaluation scripts in the repository. That is a practice for the readers of
-[link]
+https://medium.com/@imran.salam.24/autoencoders-guide-and-code-in-tensorflow-2-0-a4101571ce56
 
 There are 4 files
 
