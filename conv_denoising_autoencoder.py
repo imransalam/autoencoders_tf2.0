@@ -49,10 +49,9 @@ def grad(model, inputs, targets):
 
 if __name__ == '__main__':
 
-	(x_train, _), (x_test, _) = tf.keras.datasets.mnist.load_data()
-	x_train = x_train.astype('float32') / 255.
-	x_test = x_test.astype('float32') / 255.
-
+    (x_train, _), (x_test, _) = tf.keras.datasets.mnist.load_data()
+    x_train = x_train.astype('float32') / 255.
+    x_test = x_test.astype('float32') / 255.
     x_train = tf.reshape(x_train, (len(x_train), 28, 28, 1))
     x_test = tf.reshape(x_test, (len(x_test), 28, 28, 1))
 
